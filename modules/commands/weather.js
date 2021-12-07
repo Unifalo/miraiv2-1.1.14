@@ -12,7 +12,7 @@ module.exports.config = {
 		"request": ""
 	},
 	envConfig: {
-		"OPEN_WEATHER": "081c82065cfee62cb7988ddf90914bdd"
+		"OPEN_WEATHER": "c89a8759cb4cfc3349a5015c1b158a72"
 	}
 };
 
