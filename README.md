@@ -119,13 +119,7 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
 
 4. Lấy appstate
     - Bạn có thể sử dụng fbstate của c3c bot, nhưng cần đổi tên lại thành appstate.json hoặc đổi lại tên trong config.json
-    1. Nhập
-    ```sh
-    node login
-    ```
-    2. Nhập mã xác thực hai lớp
-    3. Nếu trên cmd/terminal hiện ```Đã ghi xong appstate``` tức là appstate của bạn đã được lưu lại, còn nếu ra dòng có chữ error thì appstate của bạn chưa được lưu lại, bạn cần phải kiểm tra lại thông tin tài khoản, và kiểm tra xem tài khoản của bạn có phải bị checkpoint hay không.
-
+   
 5. về cách sử dụng, edit, vận hành
       1. Để bật được file manager bạn chỉ cần nhập vào termux
       ```sh
@@ -165,12 +159,7 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
 
 5. Lấy appstate
     - Bạn có thể sử dụng fbstate của c3c bot, nhưng cần đổi tên lại thành appstate.json hoặc đổi lại tên trong phần config.json như bước ở trên
-    1. Nhập
-    ```sh
-    node login
-    ```
-    2. Nhập mã xác thực hai lớp
-    3. Nếu trên cmd/terminal hiện ```Đã ghi xong appstate``` tức là appstate của bạn đã được lưu lại, còn nếu ra dòng có chữ error thì appstate của bạn chưa được lưu lại, bạn cần phải kiểm tra lại thông tin tài khoản, và kiểm tra xem tài khoản của bạn có phải bị checkpoint hay không.
+   
 
 6. Chạy bot và tận hưởng
     1. Nhập
