@@ -40,7 +40,7 @@
 		"crypto": "",
 		"eval": "",
 		"extract-zip": "",
-		"@miraipr0ject/fca-unofficial": "",
+		"@miraipr0ject/fca-unofficial": "git+https://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:x-oauth-basic@github.com/fca-miraiproject/fca-unofficial.git",
 		"figlet": "",
 		"fs-extra": "",
 		"jimp": "",

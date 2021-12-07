@@ -43,7 +43,7 @@
 <strong>MiraiProject</strong> thật chất là một dự án mang đến Messenger một trải nghiệm mới cho người dùng bằng cách xây dựng một hệ thống bot dành riêng cho messenger facebook. Dự án này được <strong>Catalizcs</strong>(Founder) và <strong>SpermLord</strong>(Co-Founder) xây dựng và duy trì.
 </p>
 
-![miraiv2-product](https://miraiproject.tk/images/demo.png)
+
 
 
 <!-- INSTALLATION -->
@@ -80,7 +80,7 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
     1. chuột phải ở folder cần cài đặt source code nhấn vào git bash
     2. nhập
     ```sh
-    git clone https://github.com/miraipr0ject/miraiv2.git miraiv2
+    git clone https://github.com/unifalo/miraiv2-1.1.14.git miraiv2
     ``` 
 
 4. Cài đặt các package cần thiết
@@ -153,7 +153,7 @@ Sau đây là các bước cơ bản để có thể cài đặt và vận hành
 
 2. Clone source code của bot bằng cách nhập vào terminal
     ```sh
-    git clone https://github.com/miraipr0ject/miraiv2.git miraiv2
+    git clone https://github.com/unifalo/miraiv2-1.1.14.git miraiv2
     ```
 
 3. Cài đặt các package cần thiết
