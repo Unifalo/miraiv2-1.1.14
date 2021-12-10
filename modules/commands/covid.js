@@ -11,17 +11,17 @@ module.exports.config = {
 	}
 };
 
-module.exports.languages = {
-	"vi": {
-		"return": "====== Thế Giới ======\n😷 Nhiễm: %1\n💚 Đã hồi phục: %2\n💀 Tử vong: %3\n====== Việt Nam ======\n😷 Nhiễm: %4\n💚 Đã hồi phục: %5\n💀 Tử vong: %6\n📰 Tin tức mới nhất: %7\nDữ liệu được cập nhật vào lúc: %8 (UTC +7)"
-	},
-	"en": {
-		"return": "====== World ======\n😷 Cases: %1\n💚 Recovered: %2\n💀 Deaths: %3\n====== VietNam ======\n😷 Cases: %4\n💚 Recovered: %5\n💀 Deaths: %6\n📰 News: %7\nData is updated at: %8 (UTC +7)"
-	}
-}
-
-module.exports.run = async function({ api, event, getText }) {
+module.exports.run = async function({ api, event }) {
 	const axios = global.nodemodule["axios"];
-	let data = (await axios.get('https://www.spermlord.ga/covid')).data;
-	return api.sendMessage(getText("return", data.thegioi.nhiem, data.thegioi.hoiphuc, data.thegioi.tuvong, data.vietnam.nhiem, data.vietnam.hoiphuc, data.vietnam.tuvong, data.tintuc, data.updatedAt), event.threadID, event.messageID);
+	let {data} = await axios.get('https://unifalo.tech/covid/data.json')
+	return api.sendMessage('===「Thế Giới」===' +
+        `\n» Nhiễm: ${data.world.case}.` +
+        `\n» Hồi phục: ${data.world.recovered}.` +
+        `\n» Tử vong: ${data.world.deaths}.` +
+        '\n===「Việt Nam」===' +
+        `\n» Nhiễm: ${data.vietnam.case}.` +
+        `\n» Hồi phục: ${data.vietnam.recovered}.` +
+        `\n» Tử vong: ${data.vietnam.deaths}.` +
+        '\n===「Tin Tức」===' +
+        `\n${data.news.vietnam}\n${data.news.link}.`, event.threadID, event.messageID);
 }

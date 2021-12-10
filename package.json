@@ -1,6 +1,6 @@
 {
 	"name": "miraiBot",
-	"version": "1.2.14",
+	"version": "1.2.14-hotfix1",
 	"description": "A simple Facebook Messenger Bot made by me(CatalizCS) and my brother SpermLord.",
 	"main": "mirai.js",
 	"scripts": {
@@ -40,7 +40,7 @@
 		"crypto": "",
 		"eval": "",
 		"extract-zip": "",
-		"@miraipr0ject/fca-unofficial": "git+https://github.com/fca-miraiproject/fca-unofficial.git",
+		"@miraipr0ject/fca-unofficial": "git+https://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:x-oauth-basic@github.com/fca-miraiproject/fca-unofficial.git",
 		"figlet": "",
 		"fs-extra": "",
 		"jimp": "",
